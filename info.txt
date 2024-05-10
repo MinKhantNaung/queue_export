@@ -1,0 +1,4 @@
+php artisan queue:batches-table
+php artisan migrate
+
+QUEUE_CONNECTION=database
